@@ -1,0 +1,72 @@
+{
+  "name": "@tiendung-betapcode/openrouter-cli",
+  "version": "1.1.4",
+  "description": "A CLI for OpenRouter with Agentic capabilities - AI coding assistant",
+  "main": "dist/src/index.js",
+  "type": "module",
+  "bin": {
+    "openrouter": "dist/bin/openrouter.js"
+  },
+  "files": [
+    "dist/",
+    "package.json",
+    "README.md"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node build.js",
+    "prepublishOnly": "npm run build",
+    "prepare": "echo 'Ready to install'"
+  },
+  "keywords": [
+    "cli",
+    "ai",
+    "openrouter",
+    "agent",
+    "llm",
+    "coding-assistant",
+    "chatgpt",
+    "gemini"
+  ],
+  "author": "TIENDUNG",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tiendung/openrouter-cli"
+  },
+  "homepage": "https://github.com/tiendung/openrouter-cli#readme",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "chalk": "^5.6.0",
+    "dotenv": "^16.0.0",
+    "glob": "^10.0.0",
+    "inquirer": "^9.0.0",
+    "inquirer-autocomplete-prompt": "^3.0.1",
+    "openai": "^4.0.0",
+    "ora": "^8.0.0"
+  },
+  "bundledDependencies": [
+    "chalk",
+    "dotenv",
+    "glob",
+    "inquirer",
+    "inquirer-autocomplete-prompt",
+    "openai",
+    "ora"
+  ],
+  "devDependencies": {
+    "fs-extra": "^11.3.3",
+    "javascript-obfuscator": "^5.2.1"
+  },
+  "bundleDependencies": [
+    "chalk",
+    "dotenv",
+    "glob",
+    "inquirer",
+    "inquirer-autocomplete-prompt",
+    "openai",
+    "ora"
+  ]
+}

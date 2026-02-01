@@ -1,0 +1,5 @@
+{
+  "model": "arcee-ai/trinity-large-preview:free",
+  "theme": "light",
+  "mode": "always"
+}
